@@ -1,0 +1,47 @@
+@import "_bootswatch.scss";
+
+.navbar-brand,
+h1,
+h2 {
+  font-family: "Rock Salt", cursive, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  font-family: "Oswald", sans-serif, Verdana, Geneva, Tahoma;
+}
+.container-xxl {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.home-container {
+  position: relative;
+  top: -6rem;
+}
+@media screen and (min-width: 576px) {
+  .home-container {
+    top: -10rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    top: -14rem;
+  }
+}
+/* From https://css.glass */
+.cal-wrap,
+.vid-wrap,
+.music-wrap,
+.about-wrap,
+.contact-wrap {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  padding: 1.1rem;
+}
+figure {
+  border-radius: inherit;
+}
