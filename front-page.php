@@ -20,43 +20,43 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 ?>
 <div id="carouselExampleInterval" class="carousel slide container-xxl" data-bs-ride="carousel">
-	<div class="carousel-inner">
-		<div class="carousel-item active" data-bs-interval="3000">
-		<img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-handsonic.JPG" class="d-block w-100" alt="Tyler T. live at the Swing Station">
-		</div>
-		<div class="carousel-item" data-bs-interval="2000">
-		<img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-aggie.jpg" class="d-block w-100" alt="Tyler T. live at the Aggie">
-		</div>
-		<div class="carousel-item" data-bs-interval="2000">
-		<img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-lubbock.jpg" class="d-block w-100" alt="Tyler T. live in Lubbock">
-		</div>
-		<div class="carousel-item" data-bs-interval="3000">
-		<img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-kaossilator.jpg" class="d-block w-100" alt="Tyler T. live in Lubbock">
-		</div>
-	</div>
-	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-		<span class="visually-hidden">Previous</span>
-	</button>
-	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
-		<span class="visually-hidden">Next</span>
-	</button>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-kinneyfamilyfarm.jpg"
+                class="d-block w-100" alt="Tyler T. live at the Swing Station">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-aggie.jpg" class="d-block w-100"
+                alt="Tyler T. live at the Aggie">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img src="/wp-content/themes/tylertmusic-understrap-child/images/tyler-t-lubbock.jpg" class="d-block w-100"
+                alt="Tyler T. live in Lubbock">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 <div class="wrapper" id="page-wrapper">
 
-	
 
-	<div class="<?php echo esc_attr( $container ); ?> home-container" id="content" tabindex="-1">
 
-		<div class="row">
+    <div class="<?php echo esc_attr( $container ); ?> home-container" id="content" tabindex="-1">
 
-			<!-- Do the left sidebar check -->
-			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
+        <div class="row">
 
-			<main class="site-main" id="main">
+            <!-- Do the left sidebar check -->
+            <?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
-				<?php
+            <main class="site-main" id="main">
+
+                <?php
 				while ( have_posts() ) {
 					the_post();
 					get_template_part( 'loop-templates/content', 'page' );
@@ -68,14 +68,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 				}
 				?>
 
-			</main><!-- #main -->
+            </main><!-- #main -->
 
-			<!-- Do the right sidebar check -->
-			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
+            <!-- Do the right sidebar check -->
+            <?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
 
-		</div><!-- .row -->
+        </div><!-- .row -->
 
-	</div><!-- #content -->
+    </div><!-- #content -->
 
 </div><!-- #page-wrapper -->
 
