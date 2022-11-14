@@ -1,0 +1,28 @@
+.home #page-wrapper {
+    top: -3.75rem;
+}
+.entry-content {
+    top: 7rem;
+    margin-bottom: 7rem;
+}
+@include media-breakpoint-up(md) {
+    .entry-content {
+        top: 14rem;
+        margin-bottom: 14rem;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .entry-content {
+        top: 17rem;
+        margin-bottom: 17rem;
+    }
+}
+
+.hero-img {
+    max-width: 2880px;
+    .wp-post-image {
+        max-height: 800px;;
+        object-fit: cover;
+    }
+}

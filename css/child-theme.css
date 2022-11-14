@@ -15600,251 +15600,78 @@ figure.woocommerce-product-gallery__wrapper {
   display: block;
 }
 
-.navbar .nav-link,
-.navbar .navbar-brand {
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.1);
-  transition: color ease-in-out 0.2s;
-}
-.navbar.bg-primary {
-  background-image: linear-gradient(#3d3f94, #000272 50%, #000269);
-  filter: none;
-  border: 1px solid #00025b;
-}
-.navbar.bg-secondary {
-  background-image: linear-gradient(#654e98, #341677 50%, #30146d);
-  filter: none;
-  border: 1px solid #2a125f;
-}
-.navbar.bg-success {
-  background-image: linear-gradient(#add376, #93c54b 50%, #87b545);
-  filter: none;
-  border: 1px solid #769e3c;
-}
-.navbar.bg-info {
-  background-image: linear-gradient(#5cbfe7, #29abe0 50%, #269dce);
-  filter: none;
-  border: 1px solid #2189b3;
-}
-.navbar.bg-warning {
-  background-image: linear-gradient(#f79b6b, #f47c3c 50%, #e07237);
-  filter: none;
-  border: 1px solid #c36330;
-}
-.navbar.bg-danger {
-  background-image: linear-gradient(#e27c79, #d9534f 50%, #c84c49);
-  filter: none;
-  border: 1px solid #ae423f;
-}
-.navbar.bg-light {
-  background-image: linear-gradient(#faf7f4, #f8f5f0 50%, #e4e1dd);
-  filter: none;
-  border: 1px solid #c6c4c0;
-}
-.navbar.bg-dark {
-  background-image: linear-gradient(#6c6d69, #3e3f3a 50%, #393a35);
-  filter: none;
-  border: 1px solid #32322e;
-}
-.navbar.bg-light .nav-link,
-.navbar.bg-light .navbar-brand {
-  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
-}
-.navbar.bg-light .navbar-brand {
-  color: rgba(0, 0, 0, 0.55);
-}
-.navbar.bg-light .navbar-brand:hover {
-  color: #29abe0;
-}
-
-.btn, .wpcf7 input[type=submit], .woocommerce-notices-wrapper .woocommerce-message a.button, .woocommerce-info a.button {
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.1);
-}
-.btn-link {
-  text-shadow: none;
-}
-
-.btn-primary {
-  background-image: linear-gradient(#3d3f94, #000272 50%, #000269);
-  filter: none;
-  border: 1px solid #00025b;
-}
-
-.btn-primary:not(.disabled):hover {
-  background-image: linear-gradient(#3d3f8d, #000269 50%, #000261);
-  filter: none;
-  border: 1px solid #000254;
-}
-
-.btn-secondary {
-  background-image: linear-gradient(#654e98, #341677 50%, #30146d);
-  filter: none;
-  border: 1px solid #2a125f;
-}
-
-.btn-secondary:not(.disabled):hover {
-  background-image: linear-gradient(#624c90, #30146d 50%, #2c1264);
-  filter: none;
-  border: 1px solid #261057;
-}
-
-.btn-success, .woocommerce-notices-wrapper .woocommerce-message a.button {
-  background-image: linear-gradient(#add376, #93c54b 50%, #87b545);
-  filter: none;
-  border: 1px solid #769e3c;
-}
-
-.btn-success:not(.disabled):hover, .woocommerce-notices-wrapper .woocommerce-message a.button:not(.disabled):hover {
-  background-image: linear-gradient(#a4c772, #87b545 50%, #7ca73f);
-  filter: none;
-  border: 1px solid #6c9137;
-}
-
-.btn-info, .woocommerce-info a.button {
-  background-image: linear-gradient(#5cbfe7, #29abe0 50%, #269dce);
-  filter: none;
-  border: 1px solid #2189b3;
-}
-
-.btn-info:not(.disabled):hover, .woocommerce-info a.button:not(.disabled):hover {
-  background-image: linear-gradient(#5ab5da, #269dce 50%, #2390be);
-  filter: none;
-  border: 1px solid #1e7ea5;
-}
-
-.btn-warning {
-  background-image: linear-gradient(#f79b6b, #f47c3c 50%, #e07237);
-  filter: none;
-  border: 1px solid #c36330;
-}
-
-.btn-warning:not(.disabled):hover {
-  background-image: linear-gradient(#e79467, #e07237 50%, #ce6933);
-  filter: none;
-  border: 1px solid #b35b2c;
-}
-
-.btn-danger, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error a.button {
-  background-image: linear-gradient(#e27c79, #d9534f 50%, #c84c49);
-  filter: none;
-  border: 1px solid #ae423f;
-}
-
-.btn-danger:not(.disabled):hover, .woocommerce-notices-wrapper .woocommerce-message.woocommerce-error a.button:not(.disabled):hover {
-  background-image: linear-gradient(#d57775, #c84c49 50%, #b84643);
-  filter: none;
-  border: 1px solid #a03d3a;
-}
-
-.btn-light {
-  background-image: linear-gradient(#faf7f4, #f8f5f0 50%, #e4e1dd);
-  filter: none;
-  border: 1px solid #c6c4c0;
-}
-
-.btn-light:not(.disabled):hover {
-  background-image: linear-gradient(#eae8e5, #e4e1dd 50%, #d2cfcb);
-  filter: none;
-  border: 1px solid #b6b4b1;
-}
-
-.btn-dark {
-  background-image: linear-gradient(#6c6d69, #3e3f3a 50%, #393a35);
-  filter: none;
-  border: 1px solid #32322e;
-}
-
-.btn-dark:not(.disabled):hover {
-  background-image: linear-gradient(#696965, #393a35 50%, #343531);
-  filter: none;
-  border: 1px solid #2e2e2a;
-}
-
-[class*=btn-outline-] {
-  text-shadow: none;
-}
-
-.badge.bg-light {
-  color: #3e3f3a;
-}
-
-.card h1, .card .h1,
-.card h2,
-.card .h2,
-.card h3,
-.card .h3,
-.card h4,
-.card .h4,
-.card h5,
-.card .h5,
-.card h6,
-.card .h6,
-.list-group-item h1,
-.list-group-item .h1,
-.list-group-item h2,
-.list-group-item .h2,
-.list-group-item h3,
-.list-group-item .h3,
-.list-group-item h4,
-.list-group-item .h4,
-.list-group-item h5,
-.list-group-item .h5,
-.list-group-item h6,
-.list-group-item .h6 {
-  color: inherit;
-}
-
 .navbar-brand,
 h1,
 .h1,
 h2,
 .h2 {
-  font-family: "Rock Salt", cursive, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Rock Salt", Verdana, Geneva, Tahoma;
 }
 
 body {
-  font-family: "Oswald", sans-serif, Verdana, Geneva, Tahoma;
+  font-family: "Oswald", Verdana, Geneva, Tahoma;
 }
 
-.container-xxl {
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
+.home #page-wrapper {
+  top: -3.75rem;
 }
 
-.home-container {
-  position: relative;
-  top: -6rem;
+.entry-content {
+  top: 7rem;
+  margin-bottom: 7rem;
 }
 
-@media screen and (min-width: 576px) {
-  .home-container {
-    top: -10rem;
+@media (min-width: 768px) {
+  .entry-content {
+    top: 14rem;
+    margin-bottom: 14rem;
   }
 }
-@media screen and (min-width: 768px) {
-  .home-container {
-    top: -14rem;
+@media (min-width: 1200px) {
+  .entry-content {
+    top: 17rem;
+    margin-bottom: 17rem;
   }
 }
+.hero-img {
+  max-width: 2880px;
+}
+.hero-img .wp-post-image {
+  max-height: 800px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 /* From https://css.glass */
-.cal-wrap,
-.vid-wrap,
-.music-wrap,
-.about-wrap,
-.contact-wrap {
+.glass {
   background: rgba(255, 255, 255, 0.14);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4.3px);
   -webkit-backdrop-filter: blur(4.3px);
   border: 1px solid rgba(255, 255, 255, 0.01);
-  padding: 1.1rem;
+  padding: 1rem;
 }
 
 figure {
   border-radius: inherit;
 }
 
+@media (min-width: 768px) {
+  .glass {
+    padding: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .glass {
+    padding: 4rem;
+  }
+}
+@media (min-width: 1400px) {
+  .glass {
+    padding: 8rem;
+  }
+}
 .has-blue-color,
 .has-blue-color:visited {
   color: #000272;

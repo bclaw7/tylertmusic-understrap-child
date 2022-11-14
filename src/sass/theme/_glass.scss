@@ -1,0 +1,28 @@
+/* From https://css.glass */
+.glass {
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.3px);
+  -webkit-backdrop-filter: blur(4.3px);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  padding: 1rem;
+}
+figure {
+  border-radius: inherit;
+}
+@include media-breakpoint-up(md) {
+    .glass {
+        padding: 2rem;
+    }
+}
+@include media-breakpoint-up(xl) {
+    .glass {
+        padding: 4rem;
+    }
+}
+@include media-breakpoint-up(xxl) {
+    .glass {
+        padding: 8rem;
+    }
+} 
