@@ -17,11 +17,7 @@ defined( 'ABSPATH' ) || exit;
 
     </header><!-- .entry-header -->
 
-    <div class="hero-img mx-auto text-center position-relative">
-        <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
-        <img src="/wp-content/themes/tylertmusic-understrap-child/images/logo.png" alt="logo"
-            class="position-absolute top-100 start-50 translate-middle mt-5">
-    </div>
+
 
     <div class="entry-content position-relative">
 

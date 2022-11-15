@@ -42,8 +42,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 		?>
         <!-- end custom logo -->
 
-        <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#navbarNavOffcanvas" aria-controls="navbarNavOffcanvas" aria-expanded="false"
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarNavOffcanvas"
+            aria-controls="navbarNavOffcanvas" aria-expanded="false"
             aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="navbarNavOffcanvas">
 
             <div class="offcanvas-header justify-content-end mt-4">
-                <button type="button" class="btn-close btn-close-white text-reset me-4 mt-2" data-bs-dismiss="offcanvas"
+                <button type="button" class="btn-close btn-close-white text-reset me-4" data-bs-dismiss="offcanvas"
                     aria-label="Close"></button>
             </div><!-- .offcancas-header -->
 
