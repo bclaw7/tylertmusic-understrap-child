@@ -87,3 +87,26 @@ function understrap_child_customize_controls_js() {
 	);
 }
 add_action( 'customize_controls_enqueue_scripts', 'understrap_child_customize_controls_js' );
+
+function wpb_login_logo() { ?>
+<style type="text/css">
+#login h1 a,
+.login h1 a {
+    background-image: url(/wp-content/themes/tylertmusic-understrap-child/images/logo.png);
+    height: 140px;
+    width: 300px;
+    background-size: 300px 140px;
+    background-repeat: no-repeat;
+}
+</style>
+<?php }
+add_action( 'login_enqueue_scripts', 'wpb_login_logo' );
+function wpb_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'wpb_login_logo_url' );
+  
+function wpb_login_logo_url_title() {
+    return 'tylertmusic.com';
+}
+add_filter( 'login_headertitle', 'wpb_login_logo_url_title' );
